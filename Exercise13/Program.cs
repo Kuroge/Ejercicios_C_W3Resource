@@ -10,8 +10,8 @@ namespace Exercise13
     {
         static void Main(string[] args)
         {
-            int rowMax = 5;
-            int colMax = 3;
+            int rowMax = 20;
+            int colMax = 30;
 
             for (int row = 1; row <= rowMax; row++)
             {
@@ -29,7 +29,7 @@ namespace Exercise13
                         }
                         else
                         {
-                            Console.Write("O");
+                            Console.Write(" ");
                         }
                     }
 
