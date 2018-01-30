@@ -13,7 +13,7 @@ namespace Exercise26
             int ctr = 0;
             int n = 2;
             long sum = 0;
-            while (ctr < 78457848)
+            while (ctr < 784)
             {
                 if (EsPrimo(n))
                 {
@@ -23,7 +23,9 @@ namespace Exercise26
                 n++;
             }
             Console.WriteLine($"La suma de los primeros 500 números primos es: {sum}");
+            Console.WriteLine(14 % 10);
             Console.ReadKey();
+            
           
         
        
