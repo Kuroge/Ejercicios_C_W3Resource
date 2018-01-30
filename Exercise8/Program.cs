@@ -18,6 +18,5 @@ namespace Exercise8
             }
             Console.ReadKey();
         }
-    }
-    }
+    }   
 }
