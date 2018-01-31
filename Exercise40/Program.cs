@@ -21,7 +21,7 @@ namespace Exercise40
             int res2 = Math.Abs(num2 - x);
 
 
-            Console.WriteLine(num1 == num2 ? 0 : (num1 > num2 ? num1 : num2));
+            Console.WriteLine(num1 == num2 ? 0 : (res1 > res2 ? num2 : num1));
             Console.ReadKey();
         }
     }
